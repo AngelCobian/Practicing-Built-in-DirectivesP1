@@ -23,7 +23,7 @@ export class AppComponent {
       this.toogle = !this.toogle;
     }
     this.timer();
-    this.colors();
+
   }
   timer(){
     this.arr.push({
@@ -33,14 +33,7 @@ export class AppComponent {
     });
 
   }
-
-  colors() {
-    if(this.arr.length >= 10){
-    console.log(this.arr.length);
-
-  }
-  }
-  }
+}
 
 
 
